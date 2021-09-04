@@ -27,7 +27,7 @@ app.use(cors())
 app.use(express.json())
 
 //db config
-const mongoURI = 'mongodb+srv://user:user123@cluster1.u9a9g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const mongoURI = '-------------------------------------mongo_uri--------------------------------------------------------------'
 
 mongoose.connect(mongoURI, {
     useCreateIndex: true,
